@@ -1,0 +1,35 @@
+body {
+  margin: 20px;
+
+  font-family: "Arial", sans-serif;
+
+  background-color: #fafafa;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    grid-template-columns: 1fr;
+  }
+}
