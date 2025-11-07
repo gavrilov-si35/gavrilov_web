@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Задача 2: Выпадающее меню (Pure CSS Dropdown)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="menu" aria-label="Главное меню">
+    <ul class="menu__list">
+      <li class="menu__item"><a class="menu__link" href="#">Главная</a></li>
+
+      <li class="menu__item menu__item--has-children">
+        <a class="menu__link" href="#" aria-haspopup="true">Услуги ▾</a>
+        <ul class="submenu">
+          <li class="submenu__item"><a class="submenu__link" href="#">Консалтинг</a></li>
+          <li class="submenu__item submenu__item--has-children">
+            <a class="submenu__link" href="#">Разработка ▸</a>
+            <ul class="subsubmenu">
+              <li class="subsubmenu__item"><a class="subsubmenu__link" href="#">Frontend</a></li>
+              <li class="subsubmenu__item"><a class="subsubmenu__link" href="#">Backend</a></li>
+              <li class="subsubmenu__item"><a class="subsubmenu__link" href="#">Mobile</a></li>
+            </ul>
+          </li>
+          <li class="submenu__item"><a class="submenu__link" href="#">Дизайн</a></li>
+        </ul>
+      </li>
+
+      <li class="menu__item"><a class="menu__link" href="#">Портфолио</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+    </ul>
+  </nav>
+</body>
+
+</html>

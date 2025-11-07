@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Задача 1: Адаптивное CSS Grid-Макет (Дашборд)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="dashboard-layout">
+    <header class="dashboard__header">
+      <div class="header__inner">
+        <h1 class="header__title">Панель мониторинга</h1>
+        <div class="header__meta">Пользователь: Иван · 7 ноября 2025</div>
+      </div>
+    </header>
+
+    <nav class="dashboard__nav" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li class="nav__item">Обзор</li>
+        <li class="nav__item">Аналитика</li>
+        <li class="nav__item">Отчёты</li>
+        <li class="nav__item">Настройки</li>
+      </ul>
+      <div class="nav__widgets">
+        <div class="widget widget--small">Статус: онлайн</div>
+        <div class="widget widget--small">Уведомления: 3</div>
+      </div>
+    </nav>
+
+    <main class="dashboard__main">
+      <section class="main__row">
+        <article class="widget">График продаж (здесь можно вставить chart)</article>
+        <article class="widget">Ключевой показатель KPI</article>
+      </section>
+
+      <section class="main__row">
+        <article class="widget">Таблица заказов</article>
+        <article class="widget">Последние сообщения</article>
+      </section>
+
+      <section class="main__row main__row--full">
+        <article class="widget widget--wide">Ленты активности / лог</article>
+      </section>
+    </main>
+
+    <aside class="dashboard__aside">
+      <div class="aside__placeholder">Зарезервировано — доп. панель</div>
+    </aside>
+
+    <footer class="dashboard__footer">
+      <div class="footer__inner">© 2025 Ваша компания — Все права защищены</div>
+    </footer>
+  </div>
+</body>
+
+</html>

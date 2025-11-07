@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Задача 5: Стилизованная галерея с лайтбоксом (Pure CSS Lightbox Mockup)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="gallery-page">
+        <h1 class="gallery-page__title">Задача 5: Стилизованная галерея с лайтбоксом (Pure CSS Lightbox Mockup)</h1>
+
+        <section id="gallery" class="gallery">
+            <a class="gallery__item" href="#img1">
+                <img src="https://placehold.co/360x240" alt="Гора" loading="lazy">
+            </a>
+
+            <a class="gallery__item" href="#img2">
+                <img src="https://placehold.co/360x240" alt="Магнолии" loading="lazy">
+            </a>
+
+            <a class="gallery__item" href="#img3">
+                <img src="https://placehold.co/360x240" alt="Море" loading="lazy">
+            </a>
+
+            <a class="gallery__item" href="#img4">
+                <img src="https://placehold.co/360x240" alt="Пейзаж" loading="lazy">
+            </a>
+        </section>
+
+        <div id="img1" class="lightbox" tabindex="-1" aria-hidden="true">
+            <div class="lightbox__inner">
+                <a class="lightbox__close" href="#gallery" aria-label="Закрыть">✕</a>
+                <img class="lightbox__img" src="https://placehold.co/1200x780" alt="Гора — увеличенное">
+            </div>
+        </div>
+
+        <div id="img2" class="lightbox" tabindex="-1" aria-hidden="true">
+            <div class="lightbox__inner">
+                <a class="lightbox__close" href="#gallery" aria-label="Закрыть">✕</a>
+                <img class="lightbox__img" src="https://placehold.co/1200x780" alt="Магнолии — увеличенное">
+            </div>
+        </div>
+
+        <div id="img3" class="lightbox" tabindex="-1" aria-hidden="true">
+            <div class="lightbox__inner">
+                <a class="lightbox__close" href="#gallery" aria-label="Закрыть">✕</a>
+                <img class="lightbox__img" src="https://placehold.co/1200x780" alt="Море — увеличенное">
+            </div>
+        </div>
+
+        <div id="img4" class="lightbox" tabindex="-1" aria-hidden="true">
+            <div class="lightbox__inner">
+                <a class="lightbox__close" href="#gallery" aria-label="Закрыть">✕</a>
+                <img class="lightbox__img" src="https://placehold.co/1200x780" alt="Пейзаж — увеличенное">
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

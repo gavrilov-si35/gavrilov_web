@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Задача 6: Стилизация кастомных курсоров и скроллбаров (Browser Specific)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="custom-ui">
+        <h1>Кастомные курсоры и скроллбар</h1>
+        <p>Ниже находится блок с большим количеством текста, чтобы появился скроллбар. Прокручивайте его и наблюдайте
+            кастомный скроллбар.</p>
+
+        <div class="scroll-box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum turpis lorem. Aenean a ex
+                egestas, volutpat est id, sollicitudin est. Fusce ut placerat felis, a consectetur erat. Nam dapibus
+                neque nulla, bibendum placerat lectus scelerisque eget. Quisque commodo metus id maximus fermentum.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam
+                consectetur neque pulvinar turpis molestie, ut blandit quam fringilla.</p>
+            <p>In suscipit dui eu ante hendrerit blandit. Phasellus dictum, neque at cursus sodales, diam orci elementum
+                eros, id posuere ex eros vitae erat. Curabitur id arcu et nulla pulvinar tempus. Sed neque est,
+                ullamcorper non elit nec, porttitor egestas sapien. Morbi sed sollicitudin dui, non egestas augue.
+                Suspendisse commodo ut eros vel aliquet. Curabitur non ipsum massa. Etiam a massa odio.</p>
+            <p>Donec auctor mauris eget erat molestie consectetur. Pellentesque felis turpis, eleifend nec massa non,
+                finibus euismod nibh. Quisque fermentum finibus felis, vitae placerat nisl eleifend nec. Nullam
+                tristique efficitur augue, non volutpat nisl iaculis eget. Curabitur at nisi lectus. Pellentesque auctor
+                ornare elit. Nam ut purus id purus vestibulum hendrerit. Aliquam id lectus consequat, blandit dui vel,
+                imperdiet arcu. Etiam efficitur urna ac odio porttitor, ut lobortis nunc dignissim. In sem nisi, euismod
+                in sem eu, vehicula mollis augue.</p>
+            <p>Duis efficitur orci sit amet ante porttitor, sed vestibulum magna congue. Nunc finibus eu arcu sit amet
+                porta. Maecenas ut leo eget sapien finibus pulvinar. Duis aliquam commodo nulla, dignissim fermentum
+                lorem fermentum at. Donec eu ultrices mauris, eget vehicula elit. Suspendisse blandit leo vel bibendum
+                semper. Sed ac elit non lorem aliquam suscipit a et neque. Phasellus dignissim lectus interdum libero
+                varius, non aliquet eros faucibus. Donec ac auctor neque, at dignissim metus. Duis in erat fermentum,
+                bibendum leo ac, auctor mauris. Proin in arcu ut lacus scelerisque facilisis vel at velit. Integer
+                vehicula orci ac mi rhoncus ultrices. Phasellus nibh mauris, congue id lacus at, eleifend laoreet dolor.
+                Donec dictum scelerisque purus, vel elementum lectus.</p>
+            <p>Morbi non sollicitudin metus, in viverra tellus. Maecenas vehicula auctor vestibulum. Vivamus venenatis
+                sollicitudin justo, ut blandit nisl aliquet id. Nulla porta tellus ac lacus accumsan, sit amet lobortis
+                mi mollis. Praesent iaculis turpis a imperdiet fermentum. Sed laoreet varius enim, sit amet porta
+                libero. Aenean posuere augue id ipsum porttitor venenatis. Nunc orci nunc, condimentum bibendum nunc
+                euismod, sollicitudin sodales magna. Nullam faucibus ac neque eget tempus. Aliquam aliquet leo enim, eu
+                aliquet nunc consequat porttitor. Etiam pulvinar elit libero, in posuere elit molestie et. Maecenas
+                aliquet, mauris a mollis cursus, dolor lectus tincidunt purus, at iaculis felis mi et neque. Suspendisse
+                placerat eros sit amet euismod facilisis. Praesent at nisi vulputate risus laoreet lobortis vitae eget
+                orci. Duis volutpat auctor justo et laoreet.</p>
+            <p>Etiam in libero sed sem tincidunt faucibus. Integer non magna nec ante efficitur aliquam eu et risus.
+                Aliquam consequat efficitur pharetra. Fusce vitae nisi nibh. Quisque interdum mauris leo, ac tincidunt
+                ex viverra non. Maecenas feugiat tristique odio. Phasellus vel imperdiet mi. Vivamus ullamcorper
+                convallis nisl. Quisque dapibus et odio quis consectetur. Maecenas convallis lobortis ligula, convallis
+                dignissim arcu bibendum sit amet. Nunc porta, arcu ut pretium porta, ipsum nisl congue lectus, luctus
+                blandit leo neque nec felis. In lacinia feugiat ex sed dictum.</p>
+            <p>Mauris a euismod quam, ac lacinia nisl. Quisque id efficitur nibh. Phasellus iaculis, dolor dignissim
+                vestibulum gravida, velit nulla vestibulum arcu, non cursus odio velit sit amet urna. Vestibulum
+                ultricies ut felis ac gravida. Donec pretium purus quis pellentesque tempus. Pellentesque pharetra
+                pellentesque mi quis gravida. Proin non posuere risus. Cras erat augue, mollis vel dolor congue, cursus
+                dictum justo. Vestibulum vulputate mi justo, vel fermentum risus malesuada a.</p>
+            <p>Donec et risus vehicula, interdum purus ac, dictum leo. Praesent est massa, vulputate sit amet tempor
+                nec, vestibulum id massa. Vestibulum congue quam sit amet porta faucibus. Suspendisse ac aliquet leo.
+                Suspendisse elit diam, faucibus auctor risus eget, venenatis hendrerit dui. Donec sed nisi sed leo
+                dictum sollicitudin. Nullam eget convallis mauris. Proin sapien nulla, congue eget commodo eu, fermentum
+                quis tortor. Donec odio orci, gravida non elementum sed, malesuada ac felis. Cras vehicula tortor ac
+                orci finibus maximus. Suspendisse scelerisque ornare lobortis. Aenean a eros in libero lacinia semper.
+                Pellentesque suscipit rhoncus nunc vitae porttitor. Sed imperdiet fermentum leo, quis mollis ante
+                faucibus quis. Pellentesque quis dapibus lorem.</p>
+            <p>Donec in erat nec velit accumsan finibus sed eget sem. Nam nec interdum tortor, et condimentum ipsum.
+                Curabitur rutrum turpis vitae tempus euismod. Aliquam vel metus nec metus commodo dapibus in ac urna. Ut
+                a arcu congue, mollis risus sed, placerat mi. Suspendisse potenti. Quisque et risus non ipsum eleifend
+                scelerisque in scelerisque nulla. In eget blandit est. Mauris mollis tortor bibendum gravida faucibus.
+                Nullam diam nibh, eleifend ac ullamcorper sed, tincidunt ut mi. Phasellus pretium pulvinar augue.</p>
+            <p>Etiam nec accumsan enim. Curabitur tincidunt eget urna vitae porttitor. Donec quis suscipit tortor, id
+                imperdiet arcu. Maecenas maximus id ante quis tincidunt. Suspendisse efficitur rhoncus vestibulum. Fusce
+                malesuada augue nec velit molestie vulputate. Maecenas nibh dui, molestie mollis tortor vel, convallis
+                feugiat tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis dui placerat,
+                facilisis diam ultrices, egestas eros. Sed viverra nisi sit amet augue lobortis, sit amet dignissim est
+                venenatis. </p>
+        </div>
+
+        <p>Ссылки и кнопки с другим курсором:</p>
+        <div class="controls">
+            <a href="#" class="link">Пример ссылки</a>
+            <button class="btn">Пример кнопки</button>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+:root {
+  --bg: #f6f7fb;
+  --text: #111827;
+  --accent: #4f46e5;
+  --scroll-track: #e0e0e0;
+  --scroll-thumb: #4f46e5;
+  --base-font: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+
+  color: var(--text);
+  font-size: var(--base-font);
+  font-family: "Inter", "Roboto", "Arial", sans-serif;
+  line-height: 1.6;
+
+  background: var(--bg);
+  cursor: help;
+}
+
+a,
+button,
+.btn,
+.link {
+  cursor: grab;
+}
+
+.scroll-box {
+  max-height: 320px;
+  margin-bottom: 20px;
+  padding: 18px;
+  overflow-y: auto;
+
+  font-size: 1rem;
+
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+  border-radius: 8px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border: 3px solid var(--scroll-track);
+  border-radius: 8px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb:hover {
+  background: #4338ca;
+}
+
+a:focus,
+button:focus,
+.btn:focus,
+.link:focus {
+  border-radius: 6px;
+  outline: 3px solid rgba(79, 70, 229, 0.18);
+  outline-offset: 3px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.controls a,
+.controls .btn {
+  align-self: flex-start;
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 16px;
+  }
+
+  .scroll-box {
+    max-height: 260px;
+    padding: 14px;
+  }
+}

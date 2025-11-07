@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Задача 4: Пользовательские стили для чекбоксов и радиокнопок</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page">
+        <form class="form" action="#" novalidate>
+            <fieldset class="form__group">
+                <legend class="form__legend">Выберите интересующие направления (чекбоксы)</legend>
+
+                <div class="form__controls">
+                    <input class="form__input form__input--checkbox" type="checkbox" id="cb-design" name="interest"
+                        value="design">
+                    <label class="form__label" for="cb-design">Дизайн</label>
+
+                    <input class="form__input form__input--checkbox" type="checkbox" id="cb-dev" name="interest"
+                        value="dev">
+                    <label class="form__label" for="cb-dev">Разработка</label>
+
+                    <input class="form__input form__input--checkbox" type="checkbox" id="cb-marketing" name="interest"
+                        value="marketing">
+                    <label class="form__label" for="cb-marketing">Маркетинг</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="form__group">
+                <legend class="form__legend">Выберите тип аккаунта (радиокнопки)</legend>
+
+                <div class="form__controls">
+                    <input class="form__input form__input--radio" type="radio" id="r-free" name="account" value="free"
+                        checked>
+                    <label class="form__label" for="r-free">Базовый</label>
+
+                    <input class="form__input form__input--radio" type="radio" id="r-pro" name="account" value="pro">
+                    <label class="form__label" for="r-pro">Премиум</label>
+
+                    <input class="form__input form__input--radio" type="radio" id="r-enterprise" name="account"
+                        value="enterprise">
+                    <label class="form__label" for="r-enterprise">Корпоративный</label>
+                </div>
+            </fieldset>
+
+            <button class="btn" type="submit">Отправить</button>
+        </form>
+    </main>
+</body>
+
+</html>
