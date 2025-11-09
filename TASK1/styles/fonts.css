@@ -1,0 +1,16 @@
+/* noto-serif-regular - cyrillic_latin */
+@font-face {
+  font-weight: 400;
+  font-family: "Noto Serif";
+  font-style: normal;
+  src: url("../fonts/noto-serif/NotoSerifRegular.ttf") format("truetype");
+  font-display: swap;
+}
+/* pt-sans-regular - cyrillic_latin */
+@font-face {
+  font-weight: 400;
+  font-family: "PT Sans";
+  font-style: normal;
+  src: url("../fonts/pt-sans/PTSansRegular.ttf") format("truetype");
+  font-display: swap;
+}

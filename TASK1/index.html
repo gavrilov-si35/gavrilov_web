@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Номера и цены</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="page">
+    <main class="wrap">
+        <h1 class="page__title">НОМЕРА И ЦЕНЫ</h1>
+        <section class="cards" aria-label="Номера и цены">
+            <article class="card">
+                <input class="card__input" id="room-exec" type="checkbox" />
+                <div class="card__box">
+                    <div class="card__media"><img class="card__image" src="images/rooms/executive-suite.png"
+                            alt="Представительский люкс" draggable="false"></div>
+                    <h2 class="card__name">Представительский люкс</h2>
+                    <div class="card__bottom">
+                        <p class="card__desc">Эксклюзивный номер с панорамным видом на центр города Москвы</p>
+                        <div class="card__meta">
+                            <p class="card__price">от <span class="card__price-value">7900</span> руб./сутки</p>
+                            <label class="card__btn card__btn--book" for="room-exec">Забронировать</label>
+                            <span class="card__btn card__btn--more" aria-hidden="true">Подробнее</span>
+                        </div>
+                    </div>
+                    <div class="card__badge" aria-hidden="true">Лучшая цена</div>
+                </div>
+                <label class="card__cover" for="room-exec" aria-hidden="true"></label>
+            </article>
+            <article class="card">
+                <input class="card__input" id="room-duplex" type="checkbox" />
+                <div class="card__box">
+                    <div class="card__media"><img class="card__image" src="images/rooms/duplex.png" alt="Дуплекс"
+                            draggable="false"></div>
+                    <h2 class="card__name">Дуплекс</h2>
+                    <div class="card__bottom">
+                        <p class="card__desc">Просторный двухкомнатный номер с шикарным видом на парк</p>
+                        <div class="card__meta">
+                            <p class="card__price">от <span class="card__price-value">5700</span> руб./сутки</p>
+                            <label class="card__btn card__btn--book" for="room-duplex">Забронировать</label>
+                            <span class="card__btn card__btn--more" aria-hidden="true">Подробнее</span>
+                        </div>
+                    </div>
+                    <div class="card__badge" aria-hidden="true">Лучшая цена</div>
+                </div>
+                <label class="card__cover" for="room-duplex" aria-hidden="true"></label>
+            </article>
+            <article class="card">
+                <input class="card__input" id="room-business" type="checkbox" />
+                <div class="card__box">
+                    <div class="card__media"><img class="card__image" src="images/rooms/business-suite.png"
+                            alt="Бизнес-люкс" draggable="false"></div>
+                    <h2 class="card__name">Бизнес-люкс</h2>
+                    <div class="card__bottom">
+                        <p class="card__desc">Трехкомнатный номер с панорамным видом на Москва-реку</p>
+                        <div class="card__meta">
+                            <p class="card__price">от <span class="card__price-value">4900</span> руб./сутки</p>
+                            <label class="card__btn card__btn--book" for="room-business">Забронировать</label>
+                            <span class="card__btn card__btn--more" aria-hidden="true">Подробнее</span>
+                        </div>
+                    </div>
+                    <div class="card__badge" aria-hidden="true">Лучшая цена</div>
+                </div>
+                <label class="card__cover" for="room-business" aria-hidden="true"></label>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
