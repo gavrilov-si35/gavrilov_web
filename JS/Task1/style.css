@@ -1,0 +1,20 @@
+.page {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Arial", sans-serif;
+}
+
+.title {
+  margin-bottom: 20px;
+
+  font-size: 24px;
+}
+
+.button-change {
+  padding: 10px 16px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}

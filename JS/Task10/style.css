@@ -1,0 +1,36 @@
+.page {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Arial", sans-serif;
+}
+
+.list {
+  margin-bottom: 12px;
+  padding-left: 20px;
+}
+
+.list__item {
+  margin-bottom: 6px;
+  padding: 8px 10px;
+
+  list-style: disc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.list__item.clicked {
+  background: #e5e7eb;
+}
+
+.button {
+  padding: 8px 12px;
+
+  color: #ffffff;
+  font-size: 16px;
+
+  background: #4f46e5;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}

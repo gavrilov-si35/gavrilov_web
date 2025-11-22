@@ -1,0 +1,23 @@
+.page {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Arial", sans-serif;
+}
+
+.counter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+
+  font-size: 18px;
+}
+
+.button {
+  padding: 8px 12px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}

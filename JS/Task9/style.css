@@ -1,0 +1,28 @@
+.page {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Arial", sans-serif;
+}
+
+.text {
+  margin-bottom: 12px;
+
+  font-size: 20px;
+}
+
+.select-color {
+  padding: 8px 10px;
+
+  font-size: 16px;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.select-label {
+  display: block;
+  margin-bottom: 6px;
+
+  font-weight: 600;
+}

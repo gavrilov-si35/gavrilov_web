@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Задача 7: Валидация формы и предотвращение отправки</title>
+</head>
+
+<body class="page">
+    <form class="form" novalidate>
+        <div class="form__group">
+            <label class="form__legend" for="text">Текст</label>
+            <input id="text" class="form__input form__input--text" type="text" name="text" placeholder="Введите текст">
+        </div>
+
+        <div class="form__group">
+            <label class="form__legend" for="email">Email</label>
+            <input id="email" class="form__input form__input--email" type="email" name="email"
+                placeholder="Введите email">
+        </div>
+
+        <div class="message" role="status" aria-live="polite"></div>
+
+        <button class="btn form__button" type="submit">Отправить</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

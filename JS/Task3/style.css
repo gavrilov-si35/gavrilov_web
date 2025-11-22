@@ -1,0 +1,27 @@
+.page {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Arial", sans-serif;
+}
+
+.list {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+
+  font-size: 16px;
+}
+
+.button-add {
+  padding: 10px 16px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
