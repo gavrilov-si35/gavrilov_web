@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentImageIndex = 0;
 
     button.addEventListener('click', () => {
-        currentImageIndex += 1;
         if (currentImageIndex >= images.length) {
             currentImageIndex = 0;
         }
         image.src = images[currentImageIndex];
+        currentImageIndex += 1;
     });
 });
